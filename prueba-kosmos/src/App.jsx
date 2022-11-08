@@ -1,5 +1,6 @@
-import './App.css'
-import { TestContainer } from './components/TestContainer'
+import './App.css';
+import { TestContainer } from './components/TestContainer';
+import "./components/styles.css";
 
 function App() {
 

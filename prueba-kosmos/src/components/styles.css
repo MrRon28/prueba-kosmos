@@ -1,0 +1,32 @@
+.test-container{
+    display: flex;
+    scale: 1;
+    align-items: center;
+}
+.border-container{
+    border-radius: 20px;
+    border: 2px solid rgb(233, 233, 233);
+}
+.title-container h2{
+    font-family: serif;
+    font-weight: normal;
+    font-size: 28px;
+    padding: 15px;
+}
+.list-elements li{
+    font-size: 20px;
+    font-family: serif;
+    text-transform: capitalize;
+}
+.form-style{
+    color: black;
+}
+.form-style input{
+    background-color: #fff;;
+    border-radius: 20px;
+    border: 2px solid rgb(233, 233, 233);
+    width: 60%;
+    padding: 10px;
+    margin: 5px;
+    color: black!important;
+}
