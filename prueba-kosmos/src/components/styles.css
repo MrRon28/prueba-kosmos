@@ -22,6 +22,9 @@
 .form-style{
     color: black;
 }
+.form-elements{
+    padding-left: 10px;
+}
 .form-elements input{
     background-color: #fff;;
     border-radius: 20px;
@@ -29,6 +32,16 @@
     padding: 10px;
     margin: 5px;
     color: black!important;
+    font-size: 20px;
+}
+.form-elements label{
+    background-color: #fff;;
+    border-radius: 20px;
+    padding: 10px;
+    margin: 5px;
+    color: black!important;
+    font-size: 20px;
+    font-family: serif;
 }
 .form-elements button{
     background-color: #fff;;
@@ -37,6 +50,7 @@
     padding: 10px;
     margin: 5px;
     color: black!important;
+    font-size: 20px;
 }
 .form-elements button:hover{
     background-color: rgb(161, 156, 156);;
@@ -46,4 +60,8 @@
     margin: 5px;
     color: rgb(255, 253, 253)!important;
     cursor: pointer;
+    font-size: 20px;
+}
+.dialog-style{
+    z-index: 99;
 }

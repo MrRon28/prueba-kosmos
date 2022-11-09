@@ -4,9 +4,6 @@ import fields from './fields.json';
 
 export const TestContainer = () => {
     const [listFields, setListFields] = useState(fields.fields);
-    console.log(listFields);
-
-
 
 
   return (
@@ -19,13 +16,13 @@ export const TestContainer = () => {
             <div className='list-elements'>
                 <ul>
                 {
-                    listFields.map(field => <li>{field.type}</li>)
+                    listFields.map((field, index) => <li key={index}>{field.type}</li>)
                 }
                 </ul>
             </div>
         </div>
         <div>
-            <DynamicForm/>
+            <DynamicForm listFields={listFields} setListFields={setListFields}/>
         </div>
     </div>
     </>
