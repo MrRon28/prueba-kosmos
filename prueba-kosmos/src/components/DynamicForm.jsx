@@ -60,11 +60,11 @@ export const DynamicForm = ({listFields, setListFields }) => {
                     <div>
                         <div>
                             <label htmlFor="name">Nombre de Campo: </label>
-                            <input name="name" onChange={handleOnChange} value={formNewInput.label} id='name' type="text" placeholder="Nombre de campo" />
+                            <input required name="name" onChange={handleOnChange} value={formNewInput.label} id='name' type="text" placeholder="Nombre de campo" />
                         </div>
                         <div>
                             <label htmlFor="types">Tipo: </label>
-                            <select name='types' onChange={handleOnChange} value={formNewInput.type} id='types' placeholder="Escoge tipo de campo">
+                            <select required name='types' onChange={handleOnChange} value={formNewInput.type} id='types' placeholder="Escoge tipo de campo">
                                 <option value="text">Texto</option>
                                 <option value="select">Seleccion</option>
                                 <option value="radio">Radial</option>

@@ -16,7 +16,7 @@ export const TestContainer = () => {
             <div className='list-elements'>
                 <ul>
                 {
-                    listFields.map((field, index) => <li key={index}>{field.type}</li>)
+                    listFields.map((field, index) => <li key={index}>{`Tipo: ${field.type}, Etiqueta: ${field.label}`}</li>)
                 }
                 </ul>
             </div>
