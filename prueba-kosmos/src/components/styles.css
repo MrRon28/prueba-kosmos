@@ -1,11 +1,12 @@
 .test-container{
     display: flex;
     scale: 1;
-    align-items: center;
+    align-items: left;
 }
 .border-container{
     border-radius: 20px;
     border: 2px solid rgb(233, 233, 233);
+    width: 780px;
 }
 .title-container h2{
     font-family: serif;
@@ -21,12 +22,28 @@
 .form-style{
     color: black;
 }
-.form-style input{
+.form-elements input{
     background-color: #fff;;
     border-radius: 20px;
     border: 2px solid rgb(233, 233, 233);
-    width: 60%;
     padding: 10px;
     margin: 5px;
     color: black!important;
+}
+.form-elements button{
+    background-color: #fff;;
+    border-radius: 20px;
+    border: 2px solid rgb(233, 233, 233);
+    padding: 10px;
+    margin: 5px;
+    color: black!important;
+}
+.form-elements button:hover{
+    background-color: rgb(161, 156, 156);;
+    border-radius: 20px;
+    border: 2px solid rgb(233, 233, 233);
+    padding: 10px;
+    margin: 5px;
+    color: rgb(255, 253, 253)!important;
+    cursor: pointer;
 }
